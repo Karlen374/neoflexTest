@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EAEAEA;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  padding:0 150px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media (max-width: 1286px) {  
+  .App{
+    padding:0 60px;
+  }
+}
+@media (max-width: 865px) {  
+  .App{
+    padding:0 10px;
+  }
+}
+@media (max-width: 700px) {  
+  .App{
+    padding:0px;
+  }
 }
